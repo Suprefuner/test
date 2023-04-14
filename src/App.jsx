@@ -4,8 +4,6 @@ export default function App() {
       <h1 className="mb-3 text-5xl">this is env</h1>
       <h2>this is env</h2>
       <p className="text-3xl">{import.meta.env.VITE_TEST}</p>
-      <h2>this is process</h2>
-      <p className="text-3xl">{process.env.VITE_TEST}</p>
     </main>
   )
 }
